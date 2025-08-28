@@ -202,13 +202,13 @@
     "I was born in Songkhla, Thailand, but I don't remember anything about it.",
     "I am the first woman on my mother's side of the family in three direct generations to NOT become a doctor!",
     "Assembly was my favorite language to learn. I was heartbroken to find out it isn't wildly used.",
-    "My family loves travelling and I've visited over 10 countries, but I hate airplanes.",
+    "I love volunteering and have dabbled in teaching underprivileged kids, fundraising, and food drives.",
     "I've never broken a bone.",
     "My cat's name is Totoro. He's a gray Persian and the love of my life.",
     "I love reading manhwas and webnovels.",
   ];
 
-  let displayedFact = funFacts[2]; // default fact
+  let displayedFact = funFacts[4]; // default fact
 
   function getRandomFact() {
     displayedFact = funFacts[Math.floor(Math.random() * funFacts.length)];
@@ -502,12 +502,52 @@
 
   /* mobile responsiveness */
   @media (max-width: 768px) {
+    header {
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .header-menu {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     .hero h1 {
       font-size: 2.5em;
     }
 
     .featured-grid {
       grid-template-columns: 1fr;
+    }
+
+    .fun-facts-aside {
+      padding: 15px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .fun-facts-body {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .heart-img {
+      width: 70px;
+      margin: 0 auto;
+    }
+
+    .fun-fact-text {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .fact-btn {
+      font-size: 12px;
+      padding: 10px;
+      width: 100%;
+      max-width: 250px;
     }
   }
 </style>
