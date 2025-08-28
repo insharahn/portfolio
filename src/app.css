@@ -90,6 +90,9 @@ p {
   border-width: 3px;
   border-style: dashed;
   border-radius: 16px;
+   max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fun-facts-header {

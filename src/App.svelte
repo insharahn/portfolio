@@ -277,7 +277,7 @@
       {/each}
       <p class="projects-note">
         <a href="https://github.com/insharahn"
-          >Check the rest out at my GitHub :D</a
+          >Check the rest out at my GitHub!</a
         >
       </p>
     </div>
@@ -425,11 +425,23 @@
   .projects-section {
     margin: 50px 0;
   }
+  .projects-section h2 {
+    margin-left: 6.5rem;
+  }
 
   .projects-grid {
     display: grid;
     gap: 30px;
     margin-top: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .projects-note {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .projects-note a {
@@ -443,7 +455,7 @@
   }
 
   .featured-grid {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
   .contact-section {
@@ -453,6 +465,9 @@
     border: 2px dashed #d55984;
     margin: 50px 0;
     text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .contact-section h2 {
