@@ -128,7 +128,7 @@
         "A comprehensive travel booking system with 6 different views (Traveler, Admin, Tour Operator, Tour Guide, Hotel, Transport) with multiple interfaces integrated with personal analytics dashboards.",
       technologies: ["C#", ".NET", "SQL"],
       githubUrl: "https://github.com/insharahn/TravelEase",
-      image: "/traveler.png",
+      image: "traveler.png",
       alt: "TravelEase screenshot of Traveler interface login",
     },
     {
@@ -137,7 +137,7 @@
         "Real-time multithreaded airport traffic control system with runway scheduling, emergency handling, radar-based flight monitoring, and payment processing. 3 different processes, 1 big system.",
       technologies: ["C++", "Multithreading", "IPC"],
       githubUrl: "https://github.com/insharahn/Air-Traffic-Control-System",
-      image: "/aircontrolx.png",
+      image: "aircontrolx.png",
       alt: "Air Traffic Control System screenshot of main screen",
     },
     {
@@ -146,7 +146,7 @@
         "Exploring the relationship between home equity and intergenerational wealth in Black families through a data-driven narrative and Scrollytelling.",
       technologies: ["Svelte", "Highcharts", "Data Visualization"],
       githubUrl: "https://github.com/insharahn/kwk-website",
-      image: "/generational-gains.png",
+      image: "generational-gains.png",
       alt: "Data Storytelling - Home Equity screenshot of first section",
     },
     {
@@ -164,7 +164,7 @@
         "Built for ServiceNow, this Leave Management System automates leave requests, approvals, and tracking, streamlining HR processes and following ITSM principles.",
       technologies: ["ServiceNow", "JavaScript"],
       githubUrl: "https://github.com/insharahn/leave-management-system",
-      image: "/lms.png",
+      image: "lms.png",
       alt: "Leave Management System screenshot of xml file",
     },
 
@@ -174,7 +174,7 @@
         "Atari's iconic arcade game Centipede recreated using C++ and SFML with authentic gameplay mechanics and retro aesthetics.",
       technologies: ["C++", "SFML"],
       githubUrl: "https://github.com/insharahn/Centipede",
-      image: "/centipede.png",
+      image: "centipede.png",
       alt: "Centipede Game screenshot of game screen",
     },
 
@@ -339,8 +339,8 @@
 
   .hero {
     text-align: center;
-    padding: 40px 0;
-    margin-bottom: 40px;
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
   }
 
   .hero h1 {

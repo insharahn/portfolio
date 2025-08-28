@@ -1,4 +1,8 @@
-/*same old stylesheet*/
+html {
+  font-size: 14px;
+}
+
+
 body {
   background-color: #feede8;
   color: #34568f;
@@ -50,7 +54,7 @@ header {
 
 h1 {
   font-family: "Jost", sans-serif;
-  font-size: 25px;
+  font-size: 2.0rem;
   margin: 10px 0;
 }
 
@@ -59,18 +63,22 @@ h2 {
   margin: 10px 0;
   color: #d55984;
   font-style: italic;
-  font-size: 28px;
+  font-size: 1.55rem;
 }
 
 h3 {
   font-family: "Jost", sans-serif;
   margin: 10px 0;
-  font-size: 22px;
+  font-size: 1.10rem;
 }
 
 h4 {
   font-family: "Jost", sans-serif;
   margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
 }
 
 /*formatting for the bio part*/
