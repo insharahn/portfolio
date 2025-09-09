@@ -381,24 +381,25 @@
   }
 
   .tech-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 30px;
     justify-content: center;
-    text-align: center;
   }
 
   .tech-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #feede8;
     border: 1px solid #f5babe;
     border-radius: 15px;
     transition: all 0.3s ease;
     text-align: center;
+    width: 100px;
+    flex-shrink: 0;
   }
 
   .tech-item:hover {
